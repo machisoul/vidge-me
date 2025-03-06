@@ -6,7 +6,7 @@ summary: "SOCAL stands for Service Oriented Communication Abstraction Layer, how
 tags: ["vehicle", "communication"]
 categories: ["AutoSAR"]
 #aliases: ["migrate-from-jekyl"]
-image: images/cover/default.jpg
+image: img/cover/default.jpg
 hiddenInList: true
 ShowToc: true
 TocOpen: true

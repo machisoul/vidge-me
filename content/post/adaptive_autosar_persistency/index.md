@@ -5,7 +5,7 @@ date: "2023-06-19"
 summary: "Understanding Persistency in Adaptive AUTOSAR - mechanisms for storing information in non-volatile memory"
 tags: ["vehicle"]
 categories: ["AutoSAR"]
-image: images/cover/default.jpg
+image: img/cover/default.jpg
 hiddenInList: true
 ShowToc: true
 TocOpen: true
