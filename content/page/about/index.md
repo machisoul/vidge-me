@@ -1,11 +1,7 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
+description: About Vidge Wong
 date: '2019-02-28'
-aliases:
-  - about-us
-  - about-hugo
-  - contact
 license: CC BY-NC-ND
 lastmod: '2020-10-09'
 menu:
@@ -15,20 +11,25 @@ menu:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## Hi, I\'m Vidge 👋 
 
-Hugo makes use of a variety of open source projects including:
+### What do I do?
+**Just** an ordinary programmer, trying to leave some traces behind.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+![My Tech Stack](my_tech_stack.png)
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+### Passions & Character
+**INTJ** and here\'s a little bit about me:
+- **Big eyes:** I\'m particularly good at finding beauty, whether it\'s an excellent sentence in a book or a distinctive landscape, especially for women, and by that I mean inner beauty.
+- **Electronics Enthusiast:** As long as I work hard, I can buy more electronic products that will eat dust!
+- **Perfection Pursuer:** I want to pursue perfection in both code and life, but I often anxious about trivial matters. So, fuck perfectionism, completion is more important than perfection. Well, I need to remind myself constantly.
+- **Some Hobbies:** I might have a preference for gaming and photography. I also enjoy watching movies, traveling, dining out with friends... it\'s all consumption, maybe I just enjoy consuming. I try to read some books later.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+### The Unconventional
+- **Evolution Skeptic:** Some say humans evolved, but I\'m not entirely convinced. Maybe we\'re all just cleverly coded biological machines, who knows?🧬
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### A little ability
+- Familiar with computer systems and familiar with basic data structures and algorithms.
+- Can write some **C/C++**, Python, Golang, JavaScript code.
+- Familiar with Unix-like systems and real-time operating systems. With long-term embedded development experience.
+- Familiar with common modules of **AUTOSAR**, such as *communication*, *diagnostic*, *time synchronization*.
