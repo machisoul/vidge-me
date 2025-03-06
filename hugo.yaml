@@ -1,8 +1,8 @@
-baseurl: https://example.com/
+baseURL: https://vidge.me/
 languageCode: en-us
 theme: hugo-theme-stack
-title: Example Site
-copyright: Example Person
+title: Echoes of Vidge
+copyright: Vidge Wong
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -15,26 +15,18 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Echoes of Vidge
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
+                subtitle: Memories Beyond Time
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: 杂叙
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+                subtitle: 时间之外的往事
 
 services:
     # Change it to your Disqus shortname before using
@@ -217,15 +209,21 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: "https://github.com/machisoul"
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: email
+          name: Email
+          url: "mailto:vidgewong@gmail.com"
           params:
-              icon: brand-twitter
+              icon: email
+
+        - identifier: discord
+          name: Discord
+          url: "https://discord.gg/machisoul"
+          params:
+              icon: discord
 
 related:
     includeNewer: true
