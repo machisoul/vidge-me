@@ -221,7 +221,7 @@ menu:
 
         - identifier: discord
           name: Discord
-          url: "https://discord.gg/machisoul"
+          url: "https://discordapp.com/users/vidgewong"
           params:
               icon: discord
 
