@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "Observer Pattern"
 date: "2021-07-21"
-summary: "Understanding the Observer pattern with practical C++ implementations"
+description: "Understanding the Observer pattern with practical C++ implementations"
 tags: ["c/cpp"]
 categories: ["Design Pattern"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: "img/cover/design.png"
 ShowToc: true
 TocOpen: true
 ---

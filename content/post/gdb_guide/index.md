@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "GDB - Not an exhaustive guide"
 date: "2022-01-14"
-summary: "A comprehensive guide to GDB (GNU Debugger) with essential commands and debugging techniques"
+description: "A comprehensive guide to GDB (GNU Debugger) with essential commands and debugging techniques"
 tags: ["shell", "c/cpp"]
 categories: ["Tools"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: img/cover/neofetch.jpg
 ShowToc: true
 TocOpen: true
 ---

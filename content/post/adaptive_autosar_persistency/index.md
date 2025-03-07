@@ -2,10 +2,10 @@
 author: "Vidge Wong"
 title: "AP - Persistency"
 date: "2023-06-19"
-summary: "Understanding Persistency in Adaptive AUTOSAR - mechanisms for storing information in non-volatile memory"
+description: "Understanding Persistency in Adaptive AUTOSAR - mechanisms for storing information in non-volatile memory"
 tags: ["vehicle"]
 categories: ["AutoSAR"]
-image: img/cover/default.jpg
+image: img/cover/automotive.jpeg
 hiddenInList: true
 ShowToc: true
 TocOpen: true

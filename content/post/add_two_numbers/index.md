@@ -2,10 +2,10 @@
 author: "Vidge Wong"
 title: "Add Two Numbers"
 date: "2020-02-20"
-summary: "A solution to add two numbers represented by linked lists in reverse order"
-tags: ["c/cpp", "algorithm", "data structure"]
+description: "A solution to add two numbers represented by linked lists in reverse order"
+tags: ["c/cpp", "data structure"]
 categories: ["Algorithm"]
-image: images/cover/default.jpg
+image: img/cover/math.png
 hiddenInList: true
 ShowToc: true
 TocOpen: true

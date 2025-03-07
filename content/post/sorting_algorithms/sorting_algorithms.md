@@ -5,9 +5,7 @@ date: "2020-02-19"
 summary: "Implementation and analysis of basic sorting algorithms including bubble sort, insertion sort, and quick sort"
 tags: ["c/cpp"]
 categories: ["Algorithm"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: img/cover/math.png
 ShowToc: true
 TocOpen: true
 ---

@@ -1,8 +1,8 @@
 ---
-title: "Test"
+title: "Algorithm"
 description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+slug: "Algorithm"
+image: "img/cover/math.png"
 style:
     background: "#2a9d8f"
     color: "#fff"

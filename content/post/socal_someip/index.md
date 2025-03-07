@@ -2,11 +2,11 @@
 author: "Vidge Wong"
 title: "SOCAL and SOME/IP"
 date: "2023-05-11"
-summary: "SOCAL stands for Service Oriented Communication Abstraction Layer, how is it related to SOME/IP?"
+description: "SOCAL stands for Service Oriented Communication Abstraction Layer, how is it related to SOME/IP?"
 tags: ["vehicle", "communication"]
 categories: ["AutoSAR"]
 #aliases: ["migrate-from-jekyl"]
-image: img/cover/default.jpg
+image: img/cover/automotive.jpeg
 hiddenInList: true
 ShowToc: true
 TocOpen: true

@@ -2,13 +2,11 @@
 author: "Vidge Wong"
 title: "Common git commands"
 date: "2020-03-11"
-summary: "Some commonly used git commands."
+description: "Some commonly used git commands."
 tags: ["git"]
 categories: ["Tools"]
 #aliases: ["migrate-from-jekyl"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: img/cover/neofetch.jpg
 ShowToc: true
 TocOpen: true
 ---

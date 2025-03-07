@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "A simple Linked List question"
 date: "2020-03-19"
-summary: "A step-by-step guide to linked list operations including splitting, reversing specific nodes, and joining lists"
+description: "A step-by-step guide to linked list operations including splitting, reversing specific nodes, and joining lists"
 tags: ["c/cpp"]
 categories: ["Algorithm"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: img/cover/math.png
 ShowToc: true
 TocOpen: true
 ---

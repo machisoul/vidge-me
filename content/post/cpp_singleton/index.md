@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "Singleton Pattern"
 date: "2021-05-19"
-summary: "A comprehensive guide to implementing the Singleton pattern in C++, covering different approaches and best practices"
+description: "A comprehensive guide to implementing the Singleton pattern in C++, covering different approaches and best practices"
 tags: ["c/cpp"]
 categories: ["Design Pattern"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: "img/cover/design.png"
 ShowToc: true
 TocOpen: true
 ---

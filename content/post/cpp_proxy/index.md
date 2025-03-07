@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "Proxy Pattern"
 date: "2021-06-20"
-summary: "Understanding Proxy Pattern with Proxy-Skeleton implementation in C++"
+description: "Understanding Proxy Pattern with Proxy-Skeleton implementation in C++"
 tags: ["c/cpp"]
 categories: ["Design Pattern"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: "img/cover/design.png"
 ShowToc: true
 TocOpen: true
 ---

@@ -2,12 +2,10 @@
 author: "Vidge Wong"
 title: "My tmux config"
 date: "2022-09-19"
-summary: "A comprehensive guide to tmux configuration, focusing on custom key bindings and essential features"
+description: "A comprehensive guide to tmux configuration, focusing on custom key bindings and essential features"
 tags: ["shell"]
 categories: ["Tools"]
-cover:
-  image: images/cover/default.jpg
-  hiddenInList: true
+image: img/cover/neofetch.jpg
 ShowToc: true
 TocOpen: true
 ---
@@ -120,72 +118,4 @@ bind l split-window -h -c "#{pane_current_path}"
 - `v`: Begin selection
 - `Ctrl+v`: Rectangle toggle
 - `y`: Copy selection
-- `Y`: Copy line
-- `H`: Go to line start
-- `L`: Go to line end
-- `J`: Move down 5 lines
-- `K`: Move up 5 lines
-
-## Advanced Features
-
-### Session Management
-```bash
-# Create new session
-tmux new -s session_name
-
-# Attach to existing session
-tmux attach -t session_name
-
-# List sessions
-tmux ls
-
-# Detach from current session
-# Prefix + d
-```
-
-### Window Management
-```bash
-# Create new window
-# Prefix + c
-
-# Rename current window
-# Prefix + ,
-
-# List windows
-# Prefix + w
-```
-
-## Best Practices
-
-1. **Session Organization**:
-   - Use meaningful session names
-   - Group related windows together
-   - Keep sessions focused on specific tasks
-
-2. **Key Bindings**:
-   - Choose intuitive shortcuts
-   - Maintain consistency with other tools (vim, etc.)
-   - Document custom bindings
-
-3. **Performance**:
-   - Limit the number of active panes
-   - Clean up unused sessions
-   - Monitor resource usage
-
-## Troubleshooting
-
-Common issues and solutions:
-
-1. **Copy-Paste Not Working**:
-   - Ensure xclip is installed
-   - Check system clipboard integration
-   - Verify terminal emulator settings
-
-2. **Key Bindings Conflicts**:
-   - Check for conflicts with terminal emulator
-   - Verify prefix key availability
-   - Review other tool configurations
-
-## Conclusion
-
-This tmux configuration provides a powerful, vim-like experience with intuitive key bindings. The setup focuses on productivity and ease of use, while maintaining compatibility with common workflows. Remember to adapt these settings to your specific needs and workflow preferences. 
+- `

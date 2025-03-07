@@ -1,8 +1,9 @@
 ---
-author: Hugo Authors
+author: Vidge Wong
 title: Math Typesetting
 date: 2019-03-08
 description: A brief guide to setup KaTeX
+image: img/cover/math.png
 math: true
 ---
 
