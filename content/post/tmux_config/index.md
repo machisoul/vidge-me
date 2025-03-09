@@ -1,7 +1,7 @@
 ---
 author: "Vidge Wong"
 title: "My tmux config"
-date: "2022-09-19"
+date: "2023-05-19"
 description: "A comprehensive guide to tmux configuration, focusing on custom key bindings and essential features"
 tags: ["shell"]
 categories: ["Tools"]
