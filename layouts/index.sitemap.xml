@@ -1,0 +1,17 @@
+{{- `<?xml version="1.0" encoding="utf-8"?>` | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range .Sites }}
+    <!-- 每个语言的主页 -->
+    <url>
+      <loc>{{ .Home.Permalink }}</loc>
+      <lastmod>{{ .Home.Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+    </url>
+    <!-- 每个语言的所有普通页面 -->
+    {{- range .RegularPages }}
+    <url>
+      <loc>{{ .Permalink }}</loc>
+      <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+    </url>
+    {{- end }}
+  {{- end }}
+</urlset>

@@ -265,3 +265,17 @@ markup:
     lineNos: true
     lineNumbersInTable: true
     tabWidth: 4
+
+disableKinds:
+  - sitemap
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - Sitemap
+
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
