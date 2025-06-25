@@ -15,6 +15,10 @@ menu:
 
 ### What do I do?
 **Just** an ordinary programmer, trying to leave some traces behind.
+- IoT
+- Embedded
+- Microservices
+- Cross-platform App full-stack developer
 
 ![My Tech Stack](my_tech_stack.png)
 
@@ -30,6 +34,7 @@ menu:
 
 ### A little ability
 - Familiar with computer systems and familiar with basic data structures and algorithms.
-- Can write some **C/C++**, Python, Golang, JavaScript code.
+- Familiar with IoT related architectures such as Ros2, DDS, Zenoh, etc.
+- Can write some **C/C++**, **Rust**, Python, JavaScript/TypeScript code.
 - Familiar with Unix-like systems and real-time operating systems. With long-term embedded development experience.
 - Familiar with common modules of **AUTOSAR**, such as *communication*, *diagnostic*, *time synchronization*.
