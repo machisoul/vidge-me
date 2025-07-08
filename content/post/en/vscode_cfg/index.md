@@ -18,7 +18,9 @@ My vscode config is as follows:
 
 ```json
 {
+  "workbench.activityBar.location": "bottom",
   "workbench.colorTheme": "Default Dark+",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${appName}",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.cursorSmoothCaretAnimation": "on",
