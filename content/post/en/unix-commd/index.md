@@ -12,7 +12,7 @@ TocOpen: true
 ---
 
 ## Overview
-Git is a widely used version control system for tracking changes in source code during software development. It allows multiple developers to collaborate on a project without interfering with each other's work.
+This article summarizes frequently used Unix-like system commands for daily development, troubleshooting, and system monitoring. Each command includes practical usage examples and brief explanations to help you quickly find and understand essential tools.
 
 ## Commands
 
