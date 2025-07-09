@@ -1,7 +1,7 @@
 ---
 author: "Vidge Wong"
 title: "My vscode config"
-date: "2023-09-09"
+date: "2024-09-09"
 description: "My vscode config"
 categories: ["Tools"]
 #aliases: ["migrate-from-jekyl"]
