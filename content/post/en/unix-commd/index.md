@@ -59,4 +59,8 @@ ss -tulnp | grep <":port">
 
 # show first line title
 ss -an | awk 'NR==1 || /:13400/'
+
+# check remote machine port
+nc -zv <ip> <port>
+
 ```
