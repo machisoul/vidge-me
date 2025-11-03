@@ -23,11 +23,11 @@ If in C++ a notifier thread releases the mutex and then hasn't yet called notify
 Yes — a notification can be missed unless you use a protected predicate (shared state) together with wait (the standard pattern). Condition variable notifications are not remembered for threads that start waiting after the notification happened.
 
 ## Explanation (concise)
-. cv.wait(lock) performs an atomic operation that (conceptually) checks the predicate, releases the mutex, and blocks the thread. However, there is a race: if a notify_one()/notify_all() happens before the thread actually entered the blocking state, that notification will not be stored for later — the wait will block until the next notification.
+- cv.wait(lock) performs an atomic operation that (conceptually) checks the predicate, releases the mutex, and blocks the thread. However, there is a race: if a notify_one()/notify_all() happens before the thread actually entered the blocking state, that notification will not be stored for later — the wait will block until the next notification.
 
-. Therefore, a notifier that sets a shared condition (a boolean or other state) and then calls notify_*() is the correct approach. The waiting side must check that shared condition and only block if the condition is not already satisfied.
+- Therefore, a notifier that sets a shared condition (a boolean or other state) and then calls notify_*() is the correct approach. The waiting side must check that shared condition and only block if the condition is not already satisfied.
 
-. Use cv.wait(lock, predicate) or a loop that checks the predicate to avoid missed notifications and to handle spurious wakeups.
+- Use cv.wait(lock, predicate) or a loop that checks the predicate to avoid missed notifications and to handle spurious wakeups.
 
 ## Recommended safe pattern (C++11+)
 
@@ -58,19 +58,19 @@ bool ready = false; // protected shared predicate
 ```
 Notes about this pattern:
 
-. cv.wait(lk, pred) first checks pred() while holding the lock; if pred() is true, wait returns immediately without blocking — so any prior notify that flipped ready to true is not needed for the worker to proceed.
+- cv.wait(lk, pred) first checks pred() while holding the lock; if pred() is true, wait returns immediately without blocking — so any prior notify that flipped ready to true is not needed for the worker to proceed.
 
-. The predicate-based wait also defends against spurious wakeups (it re-checks pred() after any wakeup).
+- The predicate-based wait also defends against spurious wakeups (it re-checks pred() after any wakeup).
 
-. You may call notify_*() either while holding the lock or after releasing it. The canonical safe sequence is: modify protected state under the lock, then call notify. Calling notify after unlocking often avoids immediate contention on the mutex.
+- You may call notify_*() either while holding the lock or after releasing it. The canonical safe sequence is: modify protected state under the lock, then call notify. Calling notify after unlocking often avoids immediate contention on the mutex.
 
 ## Additional points
 
-notify_all() wakes all threads that are currently blocked in wait() on that condition variable. Threads that have not yet reached the blocked state (they're still acquiring the lock or about to call wait) will not be woken by that earlier notification.
+- notify_all() wakes all threads that are currently blocked in wait() on that condition variable. Threads that have not yet reached the blocked state (they're still acquiring the lock or about to call wait) will not be woken by that earlier notification.
 
-This is why relying solely on notify without a shared predicate is fragile and leads to lost-notification races.
+- This is why relying solely on notify without a shared predicate is fragile and leads to lost-notification races.
 
-Always protect the condition (predicate) with the same mutex used with the condition variable.
+- Always protect the condition (predicate) with the same mutex used with the condition variable.
 
 ## Conclusion
 

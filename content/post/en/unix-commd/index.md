@@ -25,6 +25,11 @@ sudo tcpdump -i any src port 13400 or dst port 13400
 ```shell
 mount -o remount,rw <path>
 ```
+### grep_tail_head
+```shell
+# check multiple files using keywords.
+grep -i "<key_words>" <files>
+```
 
 ### ps (process status)
 ```shell
